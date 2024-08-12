@@ -13,6 +13,7 @@ public class ThirdTechnique {
 }
 
 class ThirdTask implements Runnable {
+	// This class implements runnable interface instead of extending the thread class
 	private static int count = 0;
 	private int id;
 
